@@ -11,10 +11,18 @@
 		704FA6AE25DE2883005AFC57 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704FA6AD25DE2883005AFC57 /* Tests_macOS.swift */; };
 		704FA6B025DE2883005AFC57 /* pkmncalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704FA68725DE2881005AFC57 /* pkmncalculatorApp.swift */; };
 		704FA6B125DE2883005AFC57 /* pkmncalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704FA68725DE2881005AFC57 /* pkmncalculatorApp.swift */; };
-		704FA6B225DE2883005AFC57 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704FA68825DE2881005AFC57 /* ContentView.swift */; };
-		704FA6B325DE2883005AFC57 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704FA68825DE2881005AFC57 /* ContentView.swift */; };
+		704FA6B225DE2883005AFC57 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704FA68825DE2881005AFC57 /* StartView.swift */; };
+		704FA6B325DE2883005AFC57 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704FA68825DE2881005AFC57 /* StartView.swift */; };
 		704FA6B425DE2883005AFC57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 704FA68925DE2883005AFC57 /* Assets.xcassets */; };
 		704FA6B525DE2883005AFC57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 704FA68925DE2883005AFC57 /* Assets.xcassets */; };
+		708F4F4025DF99BB00FAB52F /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708F4F3F25DF99BB00FAB52F /* CalculatorView.swift */; };
+		708F4F4125DF99BB00FAB52F /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708F4F3F25DF99BB00FAB52F /* CalculatorView.swift */; };
+		70FE7CC225DE58B10009BC17 /* Pokemon Hollow.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70FE7CC025DE58B10009BC17 /* Pokemon Hollow.ttf */; };
+		70FE7CC325DE58B10009BC17 /* Pokemon Hollow.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70FE7CC025DE58B10009BC17 /* Pokemon Hollow.ttf */; };
+		70FE7CC425DE58B10009BC17 /* Pokemon Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70FE7CC125DE58B10009BC17 /* Pokemon Solid.ttf */; };
+		70FE7CC525DE58B10009BC17 /* Pokemon Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70FE7CC125DE58B10009BC17 /* Pokemon Solid.ttf */; };
+		70FE7CD525DE66150009BC17 /* tenor.gif in Resources */ = {isa = PBXBuildFile; fileRef = 70FE7CD425DE66150009BC17 /* tenor.gif */; };
+		70FE7CD625DE66150009BC17 /* tenor.gif in Resources */ = {isa = PBXBuildFile; fileRef = 70FE7CD425DE66150009BC17 /* tenor.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +44,7 @@
 
 /* Begin PBXFileReference section */
 		704FA68725DE2881005AFC57 /* pkmncalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pkmncalculatorApp.swift; sourceTree = "<group>"; };
-		704FA68825DE2881005AFC57 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		704FA68825DE2881005AFC57 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		704FA68925DE2883005AFC57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		704FA68E25DE2883005AFC57 /* pkmncalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pkmncalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		704FA69125DE2883005AFC57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +57,10 @@
 		704FA6A925DE2883005AFC57 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		704FA6AD25DE2883005AFC57 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		704FA6AF25DE2883005AFC57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		708F4F3F25DF99BB00FAB52F /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		70FE7CC025DE58B10009BC17 /* Pokemon Hollow.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pokemon Hollow.ttf"; path = "../../../../Downloads/pokemon/Pokemon Hollow.ttf"; sourceTree = "<group>"; };
+		70FE7CC125DE58B10009BC17 /* Pokemon Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pokemon Solid.ttf"; path = "../../../../Downloads/pokemon/Pokemon Solid.ttf"; sourceTree = "<group>"; };
+		70FE7CD425DE66150009BC17 /* tenor.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tenor.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +110,11 @@
 		704FA68625DE2881005AFC57 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				70FE7CD425DE66150009BC17 /* tenor.gif */,
+				70FE7CBF25DE58980009BC17 /* fonts */,
 				704FA68725DE2881005AFC57 /* pkmncalculatorApp.swift */,
-				704FA68825DE2881005AFC57 /* ContentView.swift */,
+				708F4F3F25DF99BB00FAB52F /* CalculatorView.swift */,
+				704FA68825DE2881005AFC57 /* StartView.swift */,
 				704FA68925DE2883005AFC57 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -149,6 +164,15 @@
 				704FA6AF25DE2883005AFC57 /* Info.plist */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		70FE7CBF25DE58980009BC17 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				70FE7CC025DE58B10009BC17 /* Pokemon Hollow.ttf */,
+				70FE7CC125DE58B10009BC17 /* Pokemon Solid.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +299,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70FE7CC425DE58B10009BC17 /* Pokemon Solid.ttf in Resources */,
+				70FE7CD525DE66150009BC17 /* tenor.gif in Resources */,
+				70FE7CC225DE58B10009BC17 /* Pokemon Hollow.ttf in Resources */,
 				704FA6B425DE2883005AFC57 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +310,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70FE7CC525DE58B10009BC17 /* Pokemon Solid.ttf in Resources */,
+				70FE7CD625DE66150009BC17 /* tenor.gif in Resources */,
+				70FE7CC325DE58B10009BC17 /* Pokemon Hollow.ttf in Resources */,
 				704FA6B525DE2883005AFC57 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,7 +338,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				704FA6B225DE2883005AFC57 /* ContentView.swift in Sources */,
+				704FA6B225DE2883005AFC57 /* StartView.swift in Sources */,
+				708F4F4025DF99BB00FAB52F /* CalculatorView.swift in Sources */,
 				704FA6B025DE2883005AFC57 /* pkmncalculatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,7 +348,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				704FA6B325DE2883005AFC57 /* ContentView.swift in Sources */,
+				704FA6B325DE2883005AFC57 /* StartView.swift in Sources */,
+				708F4F4125DF99BB00FAB52F /* CalculatorView.swift in Sources */,
 				704FA6B125DE2883005AFC57 /* pkmncalculatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
